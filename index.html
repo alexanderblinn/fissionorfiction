@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1024, initial-scale=1.0, user-scalable=no">
     <title>Fission or Fiction?</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
+            margin-bottom: 50px;
+            width: 1024px; /* Force desktop width */
+            margin-left: auto;
+            margin-right: auto;
         }
         header {
             font-size: 2em;
@@ -16,15 +20,25 @@
         }
         .figure-container {
             margin-top: 20px;
-            padding: 20px;
-            border: 1px solid #ccc;
+            padding: 0;
+            border: none;
             display: flex;
             justify-content: center;
         }
         iframe {
-            width: 1020px; /* Adjust width to your preference */
-            height: 620px; /* Fixed height for all figures */
+            width: 1020px; /* Fixed width for desktop */
+            height: 620px; /* Fixed height for desktop */
             border: none;
+        }
+        footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #000;
+            font-size: 0.9em;
+            color: #555;
+            width: 1024px; /* Force footer to match desktop width */
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
@@ -51,10 +65,10 @@
         <!-- Embed Figure 4 using iframe -->
         <iframe src="figs/index-construction.html"></iframe>
     </div>
-	
-	<footer>
-        <p>by Alexander Blinn, last modified on <script>document.write(new Date().toLocaleDateString());</script></p>
+    
+    <footer>
+        <p>by AB, last modified on <script>document.write(new Date().toLocaleDateString());</script></p>
     </footer>
-	
+
 </body>
 </html>
