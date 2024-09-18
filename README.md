@@ -16,8 +16,10 @@
   </a>
 
 <h3 align="center">Fission or Fiction?<br />From Media Buzz to Real Data: The State of Nuclear Power</h3>
-
-  <p align="center">
+    <p align="center">
+    <a href="https://fissionorfiction.com"><strong>www.fissionorfiction.com</strong></a>
+    <br />
+    <br />
     <a href="https://github.com/alexanderblinn/fissionorfiction"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -50,8 +52,6 @@
 ## About The Project
 
 This website presents objective, data-driven insights on nuclear power plant capacities through interactive charts, aiming to provide a balanced perspective and contribute to informed discussions beyond polarized debates.
-<br />
-<a href="https://fissionorfiction.com"><strong>www.fissionorfiction.com</strong></a>
 <br />
 
 [![Product Name Screen Shot][product-screenshot]](https://fissionorfiction.com)
