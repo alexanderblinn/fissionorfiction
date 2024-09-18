@@ -52,8 +52,9 @@
 ## About The Project
 
 This website presents objective, data-driven insights on nuclear power plant capacities through interactive charts, aiming to provide a balanced perspective and contribute to informed discussions beyond polarized debates.
+The charts are created using Python, with pandas, numpy, and plotly. The data is sourced from the Global Energy Monitor, Global Nuclear Power Tracker, July 2024 release.
 <br />
-
+<br />
 [![Product Name Screen Shot][product-screenshot]](https://fissionorfiction.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
