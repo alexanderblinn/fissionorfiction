@@ -27,7 +27,7 @@
         }
         iframe {
             width: 1280px; /* Fixed width for desktop */
-			height: 1000px;
+			height: 1100px;
             border: none;
         }
         footer {
@@ -48,28 +48,42 @@
 	<div class="subtitle">From Media Buzz to Real Data: The State of Nuclear Power</div> <!-- Subtitle -->
 
     <div class="figure-container">
-        <!-- Embed Figure 1 using iframe -->
+        <!-- Embed Figure using iframe -->
+        <iframe src="diagrams/index-commissioning.html"></iframe>
+    </div>
+	
+    <div class="figure-container">
+        <!-- Embed Figure using iframe -->
         <iframe src="diagrams/index-count-v2.html"></iframe>
     </div>
 
     <div class="figure-container">
-        <!-- Embed Figure 2 using iframe -->
+        <!-- Embed Figure using iframe -->
         <iframe src="diagrams/index-capacity.html"></iframe>
     </div>
 
     <div class="figure-container">
-        <!-- Embed Figure 3 using iframe -->
-        <iframe src="diagrams/index-commissioning.html"></iframe>
-    </div>
-
-    <div class="figure-container">
-        <!-- Embed Figure 4 using iframe -->
+        <!-- Embed Figure using iframe -->
         <iframe src="diagrams/index-construction.html"></iframe>
     </div>
-    
-    <footer>
-        <p>by AB, last modified on <script>document.write(new Date().toLocaleDateString());</script></p>
-    </footer>
+
+	<footer>
+		<p>
+			by Alexander Blinn, last modified on <script>document.write(new Date().toLocaleDateString());</script>
+		</p>
+		<p>
+			Data sourced from the 
+			<a href="https://globalenergymonitor.org/projects/global-nuclear-power-tracker/">Global Energy Monitor, Global Nuclear Power Tracker</a>, July 2024 release.
+		</p>
+		<p>
+			Interactive graphs are available for download as .html files directly from the repository: 
+			<a href="https://github.com/alexanderblinn/fissionorfiction">https://github.com/alexanderblinn/fissionorfiction</a>.
+		</p>
+		<p>
+			Did you notice an error or inconsistency? Find my contact details on GitHub or contribute directly through the repository.
+		</p>
+	</footer>
+
 
 </body>
 </html>
