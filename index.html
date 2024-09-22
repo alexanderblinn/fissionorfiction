@@ -25,11 +25,6 @@
             display: flex;
             justify-content: center;
         }
-        iframe {
-            width: 1280px; /* Fixed width for desktop */
-			height: 1100px;
-            border: none;
-        }
         footer {
             margin-top: 30px;
             padding-top: 20px;
@@ -48,23 +43,28 @@
 	<div class="subtitle">From Media Buzz to Real Data: The State of Nuclear Power</div> <!-- Subtitle -->
 
     <div class="figure-container">
-        <!-- Embed Figure using iframe -->
-        <iframe src="diagrams/index-commissioning.html"></iframe>
-    </div>
-	
-    <div class="figure-container">
-        <!-- Embed Figure using iframe -->
-        <iframe src="diagrams/index-count-v2.html"></iframe>
+        <!-- Embed Figure using iframe with custom height -->
+        <iframe src="diagrams/index-map.html" width="1280" height="800" style="border:none;"></iframe>
     </div>
 
     <div class="figure-container">
-        <!-- Embed Figure using iframe -->
-        <iframe src="diagrams/index-capacity.html"></iframe>
+        <!-- Embed Figure using iframe with custom height -->
+        <iframe src="diagrams/index-commissioning.html" width="1280" height="1000" style="border:none;"></iframe>
     </div>
 
     <div class="figure-container">
-        <!-- Embed Figure using iframe -->
-        <iframe src="diagrams/index-construction.html"></iframe>
+        <!-- Embed Figure using iframe with custom height -->
+        <iframe src="diagrams/index-count-v2.html" width="1280" height="1000" style="border:none;"></iframe>
+    </div>
+
+    <div class="figure-container">
+        <!-- Embed Figure using iframe with custom height -->
+        <iframe src="diagrams/index-capacity.html" width="1280" height="1000" style="border:none;"></iframe>
+    </div>
+
+    <div class="figure-container">
+        <!-- Embed Figure using iframe with custom height -->
+        <iframe src="diagrams/index-construction.html" width="1280" height="1100" style="border:none;"></iframe>
     </div>
 
 	<footer>
@@ -83,7 +83,6 @@
 			Did you notice an error or inconsistency? Find my contact details on GitHub or contribute directly through the repository.
 		</p>
 	</footer>
-
 
 </body>
 </html>
